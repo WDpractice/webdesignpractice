@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My trip</title>
+</head>
+
+<body>
+  <main>
+    <h1>My trip</h1>
+       <article>
+    <h2>Visiting Europe for a few weeks</h2>
+    <p>I went on a trip to Europe recently, visiting four different countries while I was there:</p>
+    <ul>
+      <li>Spain</li>
+      <li>Portugal</li>
+      <li>Turkey</li>
+      <li>The United Kingdom</li>
+    </ul>
+      <p>I'd traveled to Spain and the United Kingdom (<abbr>UK</abbr>) before, but Portugal and Turkey were new for me.
+        While I stayed longer in Portugal and particularly enjoyed <a href="https://en.wikipedia.org/wiki/Porto">Porto</a>, I enjoyed Turkey (<a href="https://en.wikipedia.org/wiki/Istanbul">Istanbul</a> specifically) even
+        more.</p>
+    </article>
+    <section><h2>Image gallery</h2>
+    <h3>Turkey</h3>
+    <!-- Validating my code showed that image manipulation by percentage is deprecated in HTML5. Since we aren't using CSS here, I used 300 pixels as a size to fit most mobile phones in vertical mode. This isn't a best practice most of the time.-->
+      <img src= "images/IstanbulRoof.jpg" alt="View of Istanbul, Turkey rooftops" width=300>
+    <h3>Spain</h3>
+    <img src= "images/SpainBilbaoBridge.jpg" alt="Western riverbank view of bridge in Bilbao, Spain" width=300>
+    <h3>Portugal</h3>
+    <img src= "images/PortugalCoast.jpg" alt="Rock beach in Portugal" width=300>
+      </section>
+  </main>
+<br>
+  <footer>Copyright Troy</footer>
+</body>
+
+</html>
